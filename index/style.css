@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    height: 100vh;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav li {
+    padding: 15px 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+nav li:hover {
+    background-color: #555;
+}
